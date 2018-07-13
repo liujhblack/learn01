@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	 <script src="videoplayer/flowplayer-3.2.8.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+	 <!--    <a href="../video/2.flv" style="display: block; width: 1000px; height: 1000px" id="tl_player">
+    </a>
+    <script>
+        flowplayer("tl_player","videoplayer/flowplayer-3.2.8.swf" );
+    </script> -->
+    
+    <div id="tl_player" style="width: 670px; height: 450px;">
+    </div>
+    <script>
+        flowplayer("tl_player", "videoplayer/flowplayer-3.2.8.swf", { clip: { url: "../video/2.flv", autoPlay: false, autoBuffering: false} });
+    </script>
+	
+</body>
+</html>
